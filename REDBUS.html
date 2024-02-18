@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    
+    <title>REDBUS</title>
+    <center><h1>RED BUS</h1></center>
+    <style>
+        body{
+            background-image: url('https://www.hdwallpapers.in/thumbs/2021/white_lines_red_background_hd_red-t2.jpg');
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px 5px red;
+            
+            }
+        #signup{
+            position: absolute;
+            top:10px;
+            right:10px;
+            font-size:20px;
+        }
+        #description{
+            text-align: center;
+            color:black;
+            font-size: 20px;
+        }
+        #table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            border-color: black;
+        }
+        #table img{
+            max-width: 200px;
+            max-height: 200px;
+        }
+        #table td,th{
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            border: 1px solid black;
+            padding: 10px;
+    
+        }
+        #table th {
+    background-color:seashell;
+  }
+  #booking form{
+            background-image:url('https://img.freepik.com/free-vector/travel-background-hand-drawn-style_23-2147764817.jpg?w=740&t=st=1708005840~exp=1708006440~hmac=a7d746f894fd2c18a42d1de7fccb0927d305132f842327831fe91253ad682444');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position:absolute;
+            top:10px;
+            right:10px;
+            font-size:20px;
+            text-shadow: 2px 2px 5px black;
+  }
+  #fixed-image {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+ 
+
+    </style>
+    <body>
+        <a   href=login1.html id="signup">signup/login</a>
+        <p id="description"> Welcome to our RED BUS.We offer a convenient and reliable way to book your bus tickets online.24 hours cutomer service</p>
+        
+        <h2>FEATURES</h2>
+        <table id="table">
+        <tr>
+            <th>FEATURE</th>
+            <th>DESCRIPTION</th>
+            <th>IMAGE</th>
+        </tr>
+        <tr>
+            <td>seat selection</td>
+            <td>Select your preferred seat</td>
+            <td><img src="https://t4.ftcdn.net/jpg/00/58/20/53/360_F_58205321_3gJpJTDQzMc5JcQm92kE56quD0k2czFW.jpg" alt="SEAT"></td> 
+        </tr>
+        <tr>
+            <td>onlie payment</td>
+            <td>Secure online payment option</td>
+            <td><img src="https://www.shutterstock.com/image-vector/mobile-payment-smartphone-online-credit-260nw-1937879032.jpg" alt="Payment"></td> 
+        </tr>
+        <tr>
+            <td>24/7 support</td>
+            <td>Customer support available round the clock</td>
+            <td><img src="https://www.jampottech.com/wp-content/uploads/2021/10/24x7-e1634046988256.png" alt="support"></td> 
+        </tr>
+        <tr>
+            <td>AC</td>
+            <td>Select ac or non ac seats</td>
+            <td><img src="https://www.aashapuratourist.com/images/buses/ac-bus.jpg" alt="ac"></td>
+        </tr>
+        <tr>
+            <td>wifi</td>
+            <td>free wifi available</td>
+            <td><img src="https://www.techtous.com/wp-content/uploads/2016/07/wi-fi_wireless.jpg" alt="wifi"></td>
+        </tr>
+        <tr>
+            <td>Sleeper Seat</td>
+            <td>travel with comforatable sleep</td>
+            <td><img src = "https://gst-contracts.s3.ap-southeast-1.amazonaws.com/uploads/bcc/cms/asset/avatar/4671/gallery_18934894119_832d514d5f.jpg" alt="sleeper seat"></td>
+        </tr>
+        </table>
+        <a href="booking form.html" id="booking form">BOOKING FORM</a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lgGrMIds4qvPnojKvxCGBAy8WLf7SB7RA&usqp=CAU" alt="Bus" id="fixed-image" width="75px" height="75px" onclick="scrollToForm()">
+        <script>   
+        function scrollToForm() {
+              document.getElementById("booking form").scrollIntoView();
+            }
+          </script>
+          
+    </body>
+</html>
